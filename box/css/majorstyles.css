@@ -1,0 +1,4 @@
+*{ font-size:12px; font-family:verdana; }
+h1 { font-size:22px; }
+.wrapper { width:900px; margin:0px auto; padding:15px;background-color:#eee; }
+input { width:250px; border: 2px solid #CCC; line-height:20px;height:20px; border-radius:10px; padding:5px; }

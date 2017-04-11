@@ -23,7 +23,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$base_url= 'http://localhost/bookslot';
+//$base_url= 'http://domain.com';
+$config['base_url']	= $base_url;
+$config['css'] = $base_url.'/box/css';
+$config['js'] = $base_url.'/box/js';
+$config['images'] = $base_url.'/box/images';
+$config['path'] = $base_url.'/home';
+/* $config['ajaxpath'] = $base_url.'/ajax';
+$config['uploadpath'] = $base_url.'/uploads';
+$config['datadump'] = 'datadump'; */
 
 /*
 |--------------------------------------------------------------------------
